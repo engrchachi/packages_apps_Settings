@@ -42,7 +42,7 @@ public class AggressiveBatterySettings extends DashboardFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.LOTUS_SETTINGS;
+        return MetricsEvent.REBELLION_SETTINGS;
     }
 
     @Override

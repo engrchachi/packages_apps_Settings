@@ -36,7 +36,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.lotus.settings.preferences.CustomSeekBarPreference;
+import com.rebellion.settings.preferences.CustomSeekBarPreference;
 
 /**
  * Settings screen for Smart charging
@@ -74,7 +74,7 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LOTUS_SETTINGS;
+        return MetricsProto.MetricsEvent.REBELLION_SETTINGS;
     }
 
     @Override

@@ -33,7 +33,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.lotus.settings.preferences.CustomSeekBarPreference;
+import com.rebellion.settings.preferences.CustomSeekBarPreference;
 
 public class BatteryChargeSoundSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -156,7 +156,7 @@ public class BatteryChargeSoundSettings extends SettingsPreferenceFragment imple
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LOTUS_SETTINGS;
+        return MetricsProto.MetricsEvent.REBELLION_SETTINGS;
     }
 
 }

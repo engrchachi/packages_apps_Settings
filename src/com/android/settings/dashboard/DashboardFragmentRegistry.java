@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2017 The Android Open Source Project
- * Copyright (C) 2019 The LotusOS Project
+ * Copyright (C) 2019 The RebellionOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -41,7 +41,7 @@ import com.android.settings.security.SecuritySettings;
 import com.android.settings.system.SystemDashboardFragment;
 import com.android.settingslib.drawer.CategoryKey;
 
-import com.lotus.settings.LotusSettings;
+import com.rebellion.settings.RebellionSettings;
 
 import java.util.Map;
 
@@ -104,7 +104,7 @@ public class DashboardFragmentRegistry {
             CategoryKey.CATEGORY_GESTURES);
         PARENT_TO_CATEGORY_KEY_MAP.put(NightDisplaySettings.class.getName(),
             CategoryKey.CATEGORY_NIGHT_DISPLAY);
-        PARENT_TO_CATEGORY_KEY_MAP.put(LotusSettings.class.getName(),
+        PARENT_TO_CATEGORY_KEY_MAP.put(RebellionSettings.class.getName(),
                 CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
 
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());

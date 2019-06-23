@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2016 The Android Open Source Project
- * Copyright (C) 2019 The LotusOS Project
+ * Copyright (C) 2019 The RebellionOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -140,7 +140,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
-import com.lotus.settings.LotusSettings;
+import com.rebellion.settings.RebellionSettings;
 
 public class SettingsGateway {
 
@@ -267,7 +267,7 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-            LotusSettings.class.getName(),
+            RebellionSettings.class.getName(),
             LiveDisplaySettings.class.getName(),
     };
 
@@ -307,6 +307,6 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
-            Settings.LotusSettingsActivity.class.getName(),
+            Settings.RebellionSettingsActivity.class.getName(),
     };
 }

@@ -365,9 +365,9 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mScreenUsagePref.setSubtitle(StringUtil.formatElapsedTime(getContext(),
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
         mBatteryTemp.setSubtitle(
-                com.android.internal.util.rebellion.RebellionUtils.mccCheck(getContext()) ?
-                com.android.internal.util.rebellion.RebellionUtils.batteryTemperature(getContext(), true) + "°F" :
-                com.android.internal.util.rebellion.RebellionUtils.batteryTemperature(getContext(), false) + "°C");
+                com.android.internal.util.lotus.LotusUtils.mccCheck(getContext()) ?
+                com.android.internal.util.lotus.LotusUtils.batteryTemperature(getContext(), true) + "°F" :
+                com.android.internal.util.lotus.LotusUtils.batteryTemperature(getContext(), false) + "°C");
     }
 
     @VisibleForTesting

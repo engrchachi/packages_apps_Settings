@@ -250,7 +250,7 @@
 
     <!-- Rebellion settings -->
     <string name="rebellion">Rebellion Settings</string>
-    <string name="rebellion_settings_summary">Whatever it takes to customize your device</string>
+    <string name="rebellion_settings_summary">Custom additional feature settings</string>
 
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>

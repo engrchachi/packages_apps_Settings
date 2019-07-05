@@ -133,7 +133,6 @@ public class BatteryMeterView extends CardView {
 
     public int getBatteryLevel() {
         return waveView.getProgress() <= 0 ? waveView.getProgress() : 10;
-    }
 
     private boolean hurtEyes(int color) {
         int rgb = (Color.red(color) + Color.green(color) + Color.blue(color)) / 3;

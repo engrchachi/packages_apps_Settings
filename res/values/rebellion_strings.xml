@@ -388,4 +388,8 @@
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
 
+    <!-- RebellionOS version -->
+    <string name="rebellion_version">Rebellion Version</string>
+    <string name="rebellion_version_default">Unknown</string>
+
 </resources>

@@ -4085,7 +4085,7 @@
     <string name="autofill_app" msgid="7338387238377914374">"Layanan IsiOtomatis"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"otomatis, isi, isiotomatis"</string>
     <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Pastikan Anda memercayai aplikasi ini&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google IsiOtomatis&gt;%1$s&lt;/xliff:g&gt; menggunakan item yang ada di layar untuk menentukan item apa saja yang dapat diisi otomatis."</string>
-    <string name="color_theme" msgid="1535685696756738324">"Tema warna"</string>
+    <string name="color_theme" msgid="1535685696756738324">"Warna akhir gradient"</string>
     <string name="default_theme" msgid="7085644992078579076">"Default"</string>
     <string name="device_theme" msgid="4571803018917608588">"Tema perangkat"</string>
     <string name="systemui_theme_wallpaper" msgid="5658521610680281172">"Otomatis (berdasarkan wallpaper)"</string>
